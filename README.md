@@ -15,20 +15,7 @@ Frontend: HTML, CSS, JavaScript (with webcam handling)
 Face Recognition: face_recognition library (Python)
 Image Processing: OpenCV (Python)
 Data Handling: Pandas for generating reports
-Installation
-Prerequisites
-Python 3.x
-MongoDB installed and running
-Web browser that supports webcam access
-Step-by-Step Guide
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/face-recognition-attendance.git
-cd face-recognition-attendance
 Install dependencies: Install the required Python packages using pip:
-
 Flask
 OpenCV (opencv-python)
 Numpy
