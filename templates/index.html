@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Attendance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('admin_page') }}">Admin Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Face Recognition Attendance System</h1>
+        <video id="video" width="640" height="480" autoplay></video>
+        <div class="button-container">
+            <button id="capture" class="btn">Check Attendance</button>
+        </div>
+    </div>
+</body>
+</html>
